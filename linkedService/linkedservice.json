@@ -4,13 +4,9 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://solliancepublicdata.blob.core.windows.net/dataengineering/dp-203/awdata/CustomerSource.csv",
+			"url": "https://github.com/sundayayandele/saamdf/blob/main/CustomerSource0.xlsx",
 			"enableServerCertificateValidation": false,
 			"authenticationType": "Anonymous"
-		},
-		"connectVia": {
-			"referenceName": "AutoResolveIntegrationRuntime",
-			"type": "IntegrationRuntimeReference"
 		}
 	}
 }
