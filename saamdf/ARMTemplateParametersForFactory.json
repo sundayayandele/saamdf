@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "saamdf"
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_connectionString": {
+			"value": ""
+		},
+		"saambdflinkedservice_connectionString": {
+			"value": ""
+		},
+		"ADLSLinkedService_properties_typeProperties_url": {
+			"value": "https://saamdlstgen2.dfs.core.windows.net"
+		},
+		"AzureKeyVaultLService_properties_typeProperties_baseUrl": {
+			"value": "https://saamkv.vault.azure.net/"
+		},
+		"linkedservice_properties_typeProperties_url": {
+			"value": "https://solliancepublicdata.blob.core.windows.net/dataengineering/dp-203/awdata/CustomerSource.csv"
+		},
+		"saamblob_properties_typeProperties_connectionString_secretName": {
+			"value": "saamstracct"
+		}
+	}
+}
