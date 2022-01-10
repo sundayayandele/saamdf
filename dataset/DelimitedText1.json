@@ -12,7 +12,6 @@
 				"type": "HttpServerLocation"
 			},
 			"columnDelimiter": "|",
-			"rowDelimiter": "0x0a",
 			"escapeChar": "\\",
 			"quoteChar": "\""
 		},
