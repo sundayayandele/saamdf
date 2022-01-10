@@ -1,0 +1,16 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/494ca603-4b85-4ddb-8cfb-dcec2c00a0fd/resourceGroups/DSTORE_RG/providers/Microsoft.Storage/storageAccounts/saamstrgacct",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
